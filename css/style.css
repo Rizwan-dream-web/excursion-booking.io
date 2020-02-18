@@ -1,0 +1,1184 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px; font-family:"Open Sans"; font-family:16px;}
+
+h1, h2, h3, h4, h5, h6, input, select, radio, textfield, textarea, span, ul, ol, li, a, checkbox, p, strong{ margin:0px; padding:0px;}
+
+a{ text-decoration:none;}
+img{ border:none; padding:0;}
+a,img{ border:none;}
+.wrap{ width:1170px; margin:0 auto 0  auto;}
+/**********************default tags***********************/
+section, hgroup, article, figure, figcaption, aside, header, footer, nav, audio, video{ margin:0px; padding:0px; display:block;}
+/**********************default tags***********************/
+
+
+/**********************header tags strats***********************/
+.header-main{ width:100%; float:left;}
+
+.header-1{ width:100%; float:left; border-bottom:#f4f4f4 1px solid;}
+.header-1 hgroup{ width:20%; float:left; padding:25px 0 40px 0;}
+.header-1 aside{ width:15%; float:left; margin:0 0 0 20%; padding:20px 0 35px 0;}
+.input{ width:90%; background:url(../images/srch.png) left center no-repeat; border:none; outline:none; font-size:13px; color:#999999; font-family:"Open Sans"; padding:10px 0 10px 15%;}
+.header-1 article{ width:40%; float:right;  padding:15px 0 0 0}
+.header-1 article figcaption { width:50%; float:left; border-right:#cccccc 1px solid; }
+.grren-input{ width:90%; text-align:center; line-height:45px; background-color:#76b900; outline:none; border:none; font-size:12px; font-weight:bold; color:#fff; cursor:pointer; box-shadow:#CCC 2px 2px 10px;}
+.grren-input:hover{ background-color:#0b5385;box-shadow:#C6F 1px 1px 2px;}
+
+.header-1 article figure { width:21%; float:left; padding:25px 0 20px 28%; font-size:18px; background:url(../images/man.png) 15% center no-repeat;}
+
+
+.header-2{ width:100%; float:left; padding:0 0 11px 0;}
+.header-2 nav{ width:100%; float:left;}
+.header-2 nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-2 nav ul li{ float:left;padding:0 20px 0 20px;}
+.header-2 nav ul li:last-child{ padding:0 0 0 0;}
+.header-2 nav ul li a{ display:block; border-bottom:transparent 2px solid; color:#999999; text-transform:uppercase; padding:20px 0 10px 0; }
+.header-2 nav ul li a:hover{ color:#73b800; border-bottom:#73b800 2px solid;}
+.header-2 nav ul li a.active{ color:#73b800; border-bottom:#73b800 2px solid;}
+
+
+.header-3{ width:100%; float:left; background:url(../images/header-bg.png) left top no-repeat; padding:140px 0 0 0; }
+.header-3 section{ width:100%; float:left;}
+.header-3 section article{ width:100%; float:left; text-transform:uppercase;}
+.header-3 section article h1{ font-family:"Arial"; font-size:80px; font-weight:bold; color:#fff; text-align:center;}
+.header-3 section article h2{font-family:"Arial"; font-size:38px; font-weight:bold; color:#fff; padding:10px 0 0 0; text-shadow:#000 0 2px 5px; text-align:center;}
+.header-3 section aside{ width:55%; float:left; margin:43px 0 110px 24%; padding:0 0 0 0;}
+.input2{ width:80%; padding:0 0 0 5%; line-height:90px; border:none; outline:none; border-radius:5px; font-size:16px; color:#999999;float:left;}
+.input-btn{ width:15%; line-height:90px; border:none; outline:none; border-radius:0 5px 5px 0; background:url(../images/locate.png) center center no-repeat; background-color:#00336e;float:left;}
+.input-btn:hover{ background-color:#76b900; cursor:pointer;}
+
+
+
+.header-3 section footer{ width:100%; float:left; padding:21px 0 21px 0; background-color:#FFF; border-radius:5px; box-shadow:#333 0 0 15px;}
+.header-3 section footer figure{width:19%; float:left; padding:0 3% 0 3%; border-right:#999 solid 1px;}
+.header-3 section footer figure p{ font-size:16px; color:#999; padding:0 0 10px 0;}
+.date{ width:100%;  font-size:16px; color:#999; padding:10px 0 10px 0; border:none; text-transform:uppercase; font-family:"open sans"; outline:none; background:url(file:///D|/Students/1%20rizwan/HTML-5/5th/images/cal.png) right center no-repeat;}
+.adu{ width:100%;  font-size:16px; color:#999; padding:10px 0 10px 0; border:none; text-transform:uppercase; font-family:"open sans"; outline:none; }
+
+.header-3 section footer nav{ width:20%; float:right; margin:0 3% 0 0;}
+.header-3 section footer nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-3 section footer nav ul li{ margin:0 0 5px 0;}
+.header-3 section footer nav ul li a{ display:block; line-height:45px; border:#76b900 1px solid; text-align:center; color:#76b900; text-transform:uppercase; font-size:16px; font-weight:bold;}
+.header-3 section footer nav ul li a:hover{ background-color:#76b900; color:#fff;}
+/**********************header tags ends***********************/
+
+
+
+/**********************section tags ends***********************/
+.sec-1{ width:100%; float:left; padding:80px 0 0 0;}
+.sec-1 section{ width:94%; float:left; padding:0 3% 108px 3%;}
+.sec-1 header{ width:100%; float:left; font-size:38px; font-family:"Arial"; color:#00336e; text-transform:uppercase; font-weight:bold; padding:0 0 54px 0;}
+.sec-1 section article{ width:49%; float:left; padding:0 0 50px 0;}
+.sec-1 section article figure{ width:50%; float:left;}
+.sec-1 section article figcaption{ width:38%; float:left; background-color:#f7f7f7;padding:33px 4% 0 4%; position:relative;  }
+
+.posi-1{ position:absolute; height:40px; width:40px; right:0px; bottom:0; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+
+.sec-1 section article figcaption h1{ background:url(../images/line.png) left bottom no-repeat; font-size:16px; padding:0 0 10px 0; }
+.sec-1 section article figcaption h1::first-letter{ color:#C39; font-size:22px;}
+.sec-1 section article figcaption p{ color:#999999; padding:14px 0 25px 0; font-size:13px; line-height:18px;}
+.mar{ margin:0 0 0 2%;}
+
+.sec-1 section footer{ width:100%; float:left;}
+.sec-1 section footer ul{ list-style:none; margin:0px; padding:0px;}
+.sec-1 section footer ul li{ float:left; width:24%; margin:0 1.33% 0 0; position:relative;transition:all 1s ease;}
+.sec-1 section footer ul li img{ filter:blur(2px);}
+.sec-1 section footer ul li img:hover{ filter:blur(0px);}
+.posi-2{ position:absolute; height:40px; width:40px; right:4px; top:0px; background:url(../images/plus.png) left top no-repeat; cursor:pointer; z-index:1;}
+.sec-1 section footer ul li:last-child{ margin:0px;}
+.sec-1 section footer ul li:hover{ transform:scale(1.1,1.1); }
+
+
+
+.sec-2{ width:100%; float:left; /*background:url(../images/round.png) right top no-repeat;*/ position:relative;}
+.sec-2-posi{ right:0; position:absolute; top:0;}
+.sec-2 section{ width:94%; float:left; padding:106px 3% 105px 3%;}
+.sec-2 section article{ width:30%; float:left;}
+.sec-2 section article h1{ font-size:24px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-2 section article p{ color:#575757; font-size:17px; line-height:24px; padding:28px 0 28px 0;}
+.sec-2 section article a{ width:60%; display:block; text-transform:uppercase; font-size:16px; color:#fff; line-height:57px; background-color:#76b900; text-align:center;}
+.sec-2 section article a:hover{ background-color:#00336e;}
+
+
+
+
+
+.sec-3{ width:100%; float:left;}
+.sec-3 section{ width:100%; float:left; text-align:center; padding:100px 0  236px 0;}
+.sec-3 section h1{ font-size:24px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-3 section p{ color:#575757; font-size:18px; line-height:24px; padding:20px 20% 0 20%;}
+
+
+
+.sec-4{ width:100%; float:left;}
+.sec-4 section{ width:100%; float:left; background-color:#dddddd; height:310px;}
+.sec-4 section ul{ list-style:none; margin:0px; padding:0px;}
+.sec-4 section ul li{ float:left; border:#fff 10px solid; margin:10px 15px 0 0;  cursor:pointer;}
+.sec-4 section ul li:hover{ border:#76b900 10px solid; transition:all 1s ease;}
+.sec-4 section ul li:nth-child(3){ transform:translateY(-190px);}
+.sec-4 section ul li:nth-child(5){ float:right;}
+.sec-4 section ul li img{ filter:hue-rotate(145deg);}
+.sec-4 section ul li img:hover{ filter:hue(100%);}
+
+.sec-4 aside{ width:100%; float:left; text-align:center; transform:translateY(-70px);}
+.sec-4 aside ul{ list-style:none; margin:0px; padding:0px;}
+.sec-4 aside ul li{ display:inline; margin:0 5px 0 0;}
+.sec-4 aside ul li a{ display:inline-block; height:15px; width:15px; border-radius:50%; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a:hover{ background-color:#76b900; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a.activegol{ background-color:#76b900; border:#6e88a5 1px solid;}
+
+
+
+.sec-5{ width:100%; float:left; padding:73px 0 100px 0;}
+.sec-5 section{ width:94%; float:left; padding:0 3% 0 3%;}
+.sec-5 section header{ width:100%; float:left; font-size:38px; font-weight:bold; color:#00336e; text-transform:uppercase; padding:0 0 55px 0;}
+.sec-5 section figure{ width:49%; float:left; position:relative;}
+.sec-5 section figure img{ width:auto;}
+.pos-btn{ position:absolute; height:50px; width:30%; right:9px; bottom:5px; background-color:#00336e;}
+.sec-5 section figcaption{ width:49%; float:right; text-align:center; padding:40px 0 25px 0; border:#f1f1f1 10px solid; box-shadow:#f3f3f3 5px 5px 10px; ; border-radius:5px;}
+.sec-5 section figcaption h1{ font-size:24px; text-transform:uppercase; color:#575757; font-weight:bold;}
+.sec-5 section figcaption p{ color:#575757; font-size:18px; line-height:24px; padding:28px 12% 30px 12%;}
+.sec-5 section figcaption a{ width:35%; display:block; font-size:16px; background:#76b900; text-transform:uppercase; margin:0 auto 0 auto; line-height:55px; color:#fff; font-weight:bold;}
+.sec-5 section figcaption a:hover{ background-color:#325787;}
+
+
+
+
+
+
+.sec-6{ width:100%; float:left; background:url(../images/blue-bg.png) left top no-repeat; padding:80px 0 0 0;}
+.sec-6 section{ width:100%; float:left;}
+.sec-6 section header{ width:100%; float:left; text-align:center; padding:0 0 50px 0;}
+.sec-6 section header h1{ font-size:30px; color:#FFF; letter-spacing:3px; padding:0 0 25px 0; background:url(../images/msg-line.png) center bottom no-repeat;}
+.sec-6 section header p{ font-size:22px; color:#FFF; padding:40px 10% 30px 10%; line-height:34px;	}
+.sec-6 section header ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section header ul li{ display:inline;}
+.sec-6 section header ul li a{ display:inline-block; height:50px ; width:50px; background:url(../images/twi.png) left center no-repeat;}
+.sec-6 section header ul li a:hover{ background:url(../images/twi-ho.png) left center no-repeat;}
+
+
+.sec-6 section header ul li a.be{ background:url(../images/be.png) left center no-repeat;}
+.sec-6 section header ul li a.be:hover{ background:url(../images/be-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section header ul li a.in{ background:url(../images/in.png) left center no-repeat;}
+.sec-6 section header ul li a.in:hover{ background:url(../images/in-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section header ul li a.gol{ background:url(../images/gol.png) left center no-repeat;}
+.sec-6 section header ul li a.gol:hover{ background:url(../images/gol-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section footer{ width:80%; float:left; padding:0 10% 115px 10%;}
+.sec-6 section footer figure{ width:50%; float:left;}
+.sec-6 section footer figure{ width:auto;}
+.sec-6 section footer figcaption{ width:38.50%; float:left; padding:45px 3% 0 8%; background-color:#fff; border:#f6f6f6 1px solid;}
+.sec-6 section footer figcaption h1{ color:#575757; font-size:22px; font-weight:bold; padding:0 0 42px 0;}
+.sec-6 section footer figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section footer figcaption  ul li{ padding:0 0 10px 0; border-bottom:#cccccc 1px solid;}
+.sec-6 section footer figcaption  a{ width:30%; display:block; background-color:#76b900; border-radius:20px; line-height:40px; font-size:14px; color:#fff; text-align:center; margin:50px 0 42px 0;}
+.sec-6 section footer figcaption  a:hover{ background-color:#00336e;}
+
+.input-send{ width:100%; border:none; outline:none; padding:20px 0 0 0; color:#bec3c7; font-family:"Open Sans";}
+
+/**********************section tags ends***********************/
+
+/**********************footer tags starts***********************/
+.foot-1{ width:100%; float:left; background:url(../images/footer-bg.png) left top no-repeat; padding:85px 0 0 0; }
+.foot-1 section{ width:100%; float:left;}
+.foot-1 section header{ width:100%; float:left; padding:0 0 53px 0 ; border-bottom:#313131 1px solid;}
+.foot-1 section header aside{ width:20%; float:left;}
+.foot-1 section header aside h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header aside ul{ width:45%; list-style:none; margin:0px; padding:0px 10px 0 0; float:left;}
+.foot-1 section header aside ul.asideul{ width:100%;}
+
+.foot-1 section header aside ul li{ line-height:30px; background:url(../images/arrow.png) left center no-repeat;}
+.foot-1 section header aside ul li a{ display:block; color:#fff; font-size:14px; padding:0 0 0 15%;}
+.foot-1 section header aside ul li a:hover{ color:#C30;}
+
+.foot-1 section header article{ width:20%; float:left; margin:0 5% 0 5%;}
+.foot-1 section header article h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header article ul{list-style:none; margin:0px;}
+.foot-1 section header article ul li{ line-height:30px; color:#fff; }
+.foot-1 section header article ul li a{ display:block; color:#fff; font-size:14px; background:url(../images/f-top.png) left center no-repeat; padding:0 0 0 15%}
+.foot-1 section header article ul li a:hover{ color:#C30;}
+
+.foot-1 section header article ul li a.info{  background:url(../images/f1.png) left center no-repeat;}
+.foot-1 section header article ul li a.phonee{  background:url(../images/f2.png) left center no-repeat;}
+.foot-1 section header article ul li a.emaill{ background:url(../images/f3.png) left center no-repeat;}
+
+
+.foot-1 section header nav{ width:25%; float:left; margin:0 0 0 5%;}
+.foot-1 section header nav h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header nav ul{list-style:none; margin:0px;}
+.foot-1 section header nav ul li{ float:left; margin:0 5% 5px 0;}
+.foot-1 section header nav ul li:nth-child(4){ margin:0px;}
+.foot-1 section header nav ul li:nth-child(8){ margin:0px;}
+.foot-1 section header nav ul li:hover{ transform:scale(1.1,1.1); transition:all 1s ease;}
+
+
+
+
+.foot-1 section footer{ width:100%; float:left;}
+.foot-1 section footer aside{ width:50%; float:left; font-size:14px; color:#fff; line-height:70px;}
+.foot-1 section footer article{ width:10%; float:right; }
+.foot-1 section footer article a{ display:block;font-size:14px; font-weight:bold; color:#fff; line-height:60px; background:url(../images/arrow-top.png) right center no-repeat;}
+.foot-1 section footer article a:hover{ color:#C30; background:url(../images/arrow-top-ho.png) right center no-repeat;}
+
+
+
+
+
+.posi-input{ width:100% ; height:100%; background-color:#00336e; border:none; outline:none; font-weight:bold; text-align:center; color:#fff; text-transform:uppercase; cursor:pointer;}
+.posi-input:hover{ background-color:#76b900;}
+
+.posi-start{ position:absolute; height:100px; width:40%; left:0; top:5%; text-align:center; text-transform:uppercase;}
+.posi-start h1{ font-size:14px; color:#fff; font-weight:bold;}
+.posi-start h2{ font-size:30px; font-weight:bold; color:#fff; }
+/**********************footer tags ends***********************/
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px)
+
+{
+.wrap{ width:100%; margin:0 auto 0  auto;}
+
+
+.header-main{ width:92%; float:left; text-align:center; padding:0 4% 0 4%;}
+
+.header-1{ width:100%; float:left; border-bottom:#f4f4f4 1px solid;}
+.header-1 hgroup{ width:100%; float:left; padding:25px 0 20px 0;}
+.header-1 hgroup img{ width:auto;}
+.header-1 aside{ width:99%; float:left; margin:0 0 0 0; padding:5px 0 5px 0; border:#CCC solid 1px;}
+.input{ width:100%; background:url(../images/srch.png) 5% center no-repeat; border:none; outline:none; font-size:13px; color:#999999; font-family:"Open Sans"; padding:10px 0 10px 0%; text-align:center;}
+.header-1 article{ width:100%; float:right;  padding:0 0 0 0}
+.header-1 article figcaption { width:100%; float:left;border-right:none; border-bottom:#cccccc 1px solid; padding:30px 0 30px 0; }
+.grren-input{ width:50%; text-align:center; line-height:45px; background-color:#76b900; outline:none; border:none; font-size:12px; font-weight:bold; color:#fff; cursor:pointer; box-shadow:#CCC 2px 2px 10px;}
+.grren-input:hover{ background-color:#0b5385;box-shadow:#C6F 1px 1px 2px;}
+
+.header-1 article figure { width:45%; float:none; padding:30px 0 20px 15%; font-size:18px; background:url(../images/man.png) 10% center no-repeat; text-align:center; display:inline-block; margin: 0 0 20px 0;}
+
+
+
+
+.header-2{ width:94%; float:left; padding:0 3% 11px 3%;text-align:center;}
+.header-2 nav{ width:100%; float:left; }
+.header-2 nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-2 nav ul li{ float:none;display:inline; text-align:center;padding:0 10px 0 10px;}
+.header-2 nav ul li:last-child{ padding:0 0 0 0;}
+.header-2 nav ul li a{ display:inline-block; border-bottom:transparent 2px solid; font-size:14px; color:#999999; text-transform:uppercase; padding:10px 0 10px 0; }
+.header-2 nav ul li a:hover{ color:#73b800; border-bottom:#73b800 2px solid;}
+.header-2 nav ul li a.active{ color:#73b800; border-bottom:#73b800 2px solid;}
+
+
+
+.header-3{ width:100%; float:left; background:url(../images/header-bg.png) center top no-repeat; padding:100px 0 0 0; text-align:center; background-size:cover; }
+.header-3 section{ width:100%; float:left;}
+.header-3 section article{ width:100%; float:left; text-transform:uppercase;}
+.header-3 section article h1{ font-family:"Arial"; font-size:40px; font-weight:bold; color:#fff; text-align:center;}
+.header-3 section article h2{font-family:"Arial"; font-size:20px; font-weight:bold; color:#fff; padding:10px 0 0 0; text-shadow:#000 0 2px 5px; text-align:center;}
+.header-3 section aside{ width:80%; float:left; margin:43px 0 110px 10%; padding:0 0 0 0;}
+.input2{ width:80%; padding:0 0 0 5%; line-height:70px; border:none; outline:none; border-radius:5px; font-size:16px; color:#999999;float:left;}
+.input-btn{ width:15%; line-height:70px; border:none; outline:none; border-radius:0 5px 5px 0; background:url(../images/locate.png) center center no-repeat; background-color:#00336e;float:left;}
+.input-btn:hover{ background-color:#76b900; cursor:pointer;}
+
+
+
+.header-3 section footer{ width:90%; float:left; padding:21px 5% 21px 5%; box-shadow:none; border:none;}
+.header-3 section footer figure{width:100%; float:left; padding:0 0 0 0; border-right:none;background-color:#FFF; border-radius:5px;  text-align:left; margin:0 0 10px 0;}
+.header-3 section footer figure p{ font-size:16px; color:#999; padding:0 0 10px 0;}
+.date{ width:100%; text-align:center;  font-size:16px; color:#999; padding:10px 0 10px 0; border:#ccc solid 1px; text-transform:uppercase; font-family:"open sans"; outline:none; background:url(file:///D|/Students/1%20rizwan/HTML-5/5th/images/cal.png) 97% center no-repeat;}
+.adu{ width:100%;  font-size:16px; color:#999; padding:10px 0 10px 0;border:#ccc solid 1px; text-transform:uppercase; font-family:"open sans"; outline:none; }
+
+.header-3 section footer nav{ width:100%; float:left; margin:20px 0 0 0; text-align:center;}
+.header-3 section footer nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-3 section footer nav ul li{ margin:0 0 5px 0; display:inline;}
+.header-3 section footer nav ul li a{ display:inline-block; line-height:45px; border:#76b900 1px solid; text-align:center; color:#76b900; text-transform:uppercase; font-size:15px; font-weight:bold; padding:0 10px 0 10px ;  }
+.header-3 section footer nav ul li a:hover{ background-color:#76b900; color:#fff;}
+/**********************header tags ends***********************/
+
+/**********************section tags ends***********************/
+.sec-1{ width:100%; float:left; padding:80px 0 0 0;}
+.sec-1 section{ width:94%; float:left; padding:0 3% 100px 3%;}
+.sec-1 header{ width:100%; float:left; font-size:38px; font-family:"Arial"; color:#00336e; text-transform:uppercase; font-weight:bold; padding:0 0 54px 0;}
+.sec-1 section article{ width:100%; float:left; padding:0 0 50px 0;}
+.sec-1 section article figure{ width:100%; float:left;}
+.sec-1 section article figure img{ width:100%;}
+.sec-1 section article figcaption{ width:94%; float:left; background-color:#f7f7f7;padding:33px 3% 0 3%; position:relative;  }
+
+.posi-1{ position:absolute; height:40px; width:40px; right:0px; bottom:0; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+
+.sec-1 section article figcaption h1{ background:url(../images/line.png) left bottom no-repeat; font-size:16px; padding:0 0 10px 0; }
+.sec-1 section article figcaption h1:first-letter{ color:#C39; font-size:22px;}
+.sec-1 section article figcaption p{ color:#999999; padding:14px 0 33px 0; font-size:13px; line-height:18px;}
+.mar{ margin:0 0 0 0;}
+
+.sec-1 section footer{ width:100%; float:left;}
+.sec-1 section footer ul{ list-style:none; margin:0px; padding:0px;}
+.sec-1 section footer ul li{ float:left; width:100%; margin:0 0 0 0; position:relative;transition:all 1s ease;}
+.sec-1 section footer ul li img{ width:100%; filter:blur(0);filter:hue-rotate(145deg)}
+.sec-1 section footer ul li img:hover{ filter:blur(0px);}
+.posi-2{ position:absolute; height:40px; width:40px; right:4px; top:0px; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+.sec-1 section footer ul li:last-child{ margin:0px;}
+.sec-1 section footer ul li:hover{ transform:none; }
+
+
+.sec-2{ width:100%; float:left; background:none; /* background:url(../images/round.png) right top no-repeat; text-align:center;*/ position:relative;}
+/*.sec-2-posi{ right:0; position:absolute; top:0;}*/
+.sec-2-posi{ right:0; position:absolute; top:0; z-index:0; width:95%;}
+.sec-2-posi img{ width:100%;}
+
+.sec-2 section{ width:94%; float:left; padding:106px 3% 105px 3%;}
+.sec-2 section article{ width:92%; float:left; padding:25px 4% 25px 4%; background:rgba(125, 225, 255, 0.8); margin:200px 0 0 0;}
+
+.sec-2 section article h1{ font-size:22px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-2 section article p{ color:#575757; font-size:17px; line-height:24px; padding:28px 0 28px 0;}
+.sec-2 section article a{ width:60%; display:inline-block; text-align:center; text-transform:uppercase; font-size:16px; color:#fff; line-height:57px; background-color:#76b900; text-align:center;}
+.sec-2 section article a:hover{ background-color:#00336e;}
+
+
+
+.sec-3{ width:94%; float:left; text-align:center; padding:0 3% 0 3%;}
+.sec-3 section{ width:100%; float:left; text-align:center; padding:0 0  100px 0;}
+.sec-3 section h1{ font-size:22px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-3 section p{ color:#575757; font-size:14px; line-height:24px; padding:20px 10% 0 10%;}
+
+
+
+.sec-4{ width:100%; float:left;text-align:center;}
+.sec-4 section{ width:94%; float:left; background-color:#dddddd; height:inherit; text-align:center; padding:20px 3% 20px 3%; }
+.sec-4 section ul{ list-style:none; margin:0px; padding:0px; }
+.sec-4 section ul li img{ width:100%;}
+.sec-4 section ul li{ float:none; border:#fff 10px solid; margin:10px 0px 0 0;  cursor:pointer;}
+.sec-4 section ul li:hover{ border:#76b900 10px solid; transition:all 1s ease;}
+.sec-4 section ul li:nth-child(3){ transform:none;}
+.sec-4 section ul li:nth-child(5){ float:none; display:none;}
+.sec-4 section ul li:nth-child(1){ display:none;}
+
+.sec-4 section ul li img{ filter:hue-rotate(145deg);}
+.sec-4 section ul li img:hover{ filter:hue(100%);}
+
+.sec-4 aside{ width:100%; float:left;  transform:none;}
+.sec-4 aside ul{ list-style:none; margin:0px; padding:0px;}
+.sec-4 aside ul li{ display:inline; margin:0 5px 0 0;}
+.sec-4 aside ul li a{  height:15px; width:15px; border-radius:50%; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a:hover{ background-color:#76b900; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a.activegol{ background-color:#76b900; border:#6e88a5 1px solid;}   
+
+
+
+.sec-5{ width:94%; float:left; padding:73px 3% 0px 3%;}
+.sec-5 section{ width:100%; float:left; padding:0 0 0 0%; text-align:center;}
+.sec-5 section header{ width:100%; float:left; font-size:30px; font-weight:bold; color:#00336e; text-transform:uppercase; padding:0 0 55px 0;}
+.sec-5 section figure{ width:100%; float:left; position:relative;}
+.sec-5 section figure img{ width:100%;}
+.pos-btn{ position:absolute; height:50px; width:30%; right:0px; bottom:5px; background-color:#00336e;}
+.sec-5 section figcaption{ width:89%; float:right; text-align:center; padding:40px 2% 25px 2%; margin:30px 0 50px 0; border:#f1f1f1 10px solid; box-shadow:none ; border-radius:5px;}
+.sec-5 section figcaption h1{ font-size:20px; text-transform:uppercase; color:#575757; font-weight:bold;}
+.sec-5 section figcaption p{ color:#575757; font-size:15px; line-height:24px; padding:28px 12% 30px 12%;}
+.sec-5 section figcaption a{ width:45%; display:inline-block; font-size:13px; background:#76b900; text-transform:uppercase; margin:0 auto 0 auto; line-height:55px; color:#fff; font-weight:bold;}
+.sec-5 section figcaption a:hover{ background-color:#325787;}
+
+
+
+
+
+.sec-6{ width:94%; float:left;  background:url(../images/blue-bg.png) left top no-repeat; background-size:cover; padding:80px 3% 0 3%;}
+.sec-6 section{ width:100%; float:left;}
+.sec-6 section header{ width:100%; float:left; text-align:center; padding:0 0 50px 0;}
+.sec-6 section header h1{ font-size:25px; color:#FFF; letter-spacing:3px; padding:0 0 25px 0; background:url(../images/msg-line.png) center bottom no-repeat;}
+.sec-6 section header p{ font-size:18px; color:#FFF; padding:40px 10% 30px 10%; line-height:34px;	}
+.sec-6 section header ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section header ul li{ display:inline;}
+.sec-6 section header ul li a{ display:inline-block; height:50px ; width:50px; background:url(../images/twi.png) left center no-repeat;}
+.sec-6 section header ul li a:hover{ background:url(../images/twi-ho.png) left center no-repeat;}
+
+
+.sec-6 section header ul li a.be{ background:url(../images/be.png) left center no-repeat;}
+.sec-6 section header ul li a.be:hover{ background:url(../images/be-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section header ul li a.in{ background:url(../images/in.png) left center no-repeat;}
+.sec-6 section header ul li a.in:hover{ background:url(../images/in-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section header ul li a.gol{ background:url(../images/gol.png) left center no-repeat;}
+.sec-6 section header ul li a.gol:hover{ background:url(../images/gol-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section footer{ width:80%; float:left; padding:0 10% 115px 10%;}
+.sec-6 section footer figure{ width:100%; float:left;}
+.sec-6 section footer figure img{ width:100%;}
+.sec-6 section footer figcaption{ width:99%; float:left; padding:45px 0 0 0; background-color:#fff; border:#f6f6f6 1px solid;}
+.sec-6 section footer figcaption h1{ color:#575757; font-size:22px; font-weight:bold; padding:0 0 42px 0; text-align:center;}
+.sec-6 section footer figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section footer figcaption  ul li{ padding:0 0 10px 0; border-bottom:#cccccc 1px solid;}
+.sec-6 section footer figcaption  a{ width:30%; display:block; background-color:#76b900; border-radius:20px; line-height:40px; font-size:14px; color:#fff; text-align:center; margin:50px auto 42px auto;}
+.sec-6 section footer figcaption  a:hover{ background-color:#00336e;}
+
+.input-send{ width:100%; display:inline-block;border:none; outline:none; padding:20px 0 0 0; color:#bec3c7; font-family:"Open Sans"; text-align:center; }
+
+
+
+
+
+
+/**********************footer tags starts***********************/
+.foot-1{ width:90%; float:left; background:url(../images/footer-bg.png) left top no-repeat; padding:70px 5% 0 5%;  background-size:cover;}
+.foot-1 section{ width:100%; float:left;}
+.foot-1 section header{ width:100%; float:left; padding:0 0 53px 0 ; border-bottom:#313131 1px solid; }
+.foot-1 section header aside{ width:100%;  float:none; text-align:center; margin:0 0 20px 0; padding:0 0 0 0;}
+.foot-1 section header aside h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header aside ul{ width:100%; list-style:none; margin:0px; padding:0px 0px 0 0;display:inline; float:none; text-align:center;}
+.foot-1 section header aside ul.asideul{ width:100%; }
+
+.foot-1 section header aside ul li{ display:inline-block; text-align:center; line-height:30px; background:url(../images/arrow.png) left center no-repeat;}
+.foot-1 section header aside ul li a{ display:inline-block; color:#fff; font-size:14px; padding:0 0 0 15%;}
+.foot-1 section header aside ul li a:hover{ color:#C30;}
+
+.foot-1 section header article{ width:100%; float:left; margin:30px 0% 30px 0%; text-align:center;}
+.foot-1 section header article h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header article ul{list-style:none; margin:0px; padding:0px; text-align:center;}
+.foot-1 section header article ul li{ line-height:30px; color:#fff; display:inline-block; }
+.foot-1 section header article ul li a{ display:inline-block; color:#fff; font-size:14px; background:url(../images/f-top.png) 12% 10px no-repeat; padding:0 0 0 15%}
+.foot-1 section header article ul li a:hover{ color:#C30;}
+
+.foot-1 section header article ul li a.info{  background:url(../images/f1.png) left center no-repeat;}
+.foot-1 section header article ul li a.phonee{  background:url(../images/f2.png) left center no-repeat;}
+.foot-1 section header article ul li a.emaill{ background:url(../images/f3.png) left center no-repeat;}
+
+
+.foot-1 section header nav{ width:100%; float:left; margin:20px 0 0 0%; text-align:center;}
+.foot-1 section header nav h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header nav ul{list-style:none; margin:0px;}
+.foot-1 section header nav ul li{ float:none; text-align:center; margin:0 3% 5px 0; display:inline-block;}
+.foot-1 section header nav ul li:nth-child(4){ margin:0px 4%;}
+.foot-1 section header nav ul li:nth-child(8){ margin:0px;}
+.foot-1 section header nav ul li:hover{ transform:scale(1.1,1.1); transition:all 1s ease;}
+
+
+
+
+.foot-1 section footer{ width:100%; float:left;}
+.foot-1 section footer aside{ width:100%; float:left; font-size:14px; color:#fff; line-height:20px; text-align:center; padding:30px 0;}
+.foot-1 section footer article{ width:100%; float:right; text-align:center; }
+.foot-1 section footer article a{ display:inline; text-align:center; font-size:14px; font-weight:bold; color:#fff; line-height:60px; background:url(../images/arrow-top.png) right center no-repeat; padding:0 5% 0 0;}
+.foot-1 section footer article a:hover{ color:#C30; background:url(../images/arrow-top-ho.png) right center no-repeat;}
+
+
+
+
+
+.posi-input{ width:100% ; height:100%; background-color:#00336e; border:none; outline:none; font-weight:bold; text-align:center; color:#fff; text-transform:uppercase; cursor:pointer;}
+.posi-input:hover{ background-color:#76b900;}
+
+.posi-start{ position:absolute; height:100px; width:40%; left:0; top:5%; text-align:center; text-transform:uppercase;}
+.posi-start h1{ font-size:14px; color:#fff; font-weight:bold;}
+.posi-start h2{ font-size:30px; font-weight:bold; color:#fff; }
+/**********************footer tags ends***********************/
+
+}
+
+
+
+
+
+@media only screen and (min-width:481px) and (max-width:767px)
+
+{
+.wrap{ width:100%; margin:0 auto 0  auto;}
+
+.header-1{ width:94%; float:left; border-bottom:#f4f4f4 1px solid; padding:0 3% 0 3%; }
+.header-1 hgroup{ width:20%; float:left; padding:25px 0 40px 0; text-align:center;}
+.header-1 hgroup img{ width:100%;}
+.header-1 aside{ width:25%; float:left; margin:0 0 0 10%; padding:20px 0 35px 0;}
+.input{ width:85%; background:url(../images/srch.png) left center no-repeat; border:none; outline:none; font-size:13px; color:#999999; font-family:"Open Sans"; padding:10px 0 10px 15%;}
+.header-1 article{ width:40%; float:left;  padding:15px 0 0 0}
+.header-1 article figcaption { width:50%; float:left; border-right:#cccccc 1px solid; }
+.grren-input{ width:90%; text-align:center; line-height:45px; background-color:#76b900; outline:none; border:none; font-size:12px; font-weight:bold; color:#fff; cursor:pointer; box-shadow:#CCC 2px 2px 0;}
+.grren-input:hover{ background-color:#0b5385;box-shadow:#C6F 1px 1px 2px;}
+
+.header-1 article figure { width:20%; float:left; padding:25px 0 20px 25%; font-size:18px; background:url(../images/man.png) 15% center no-repeat;}
+
+
+
+.header-2{ width:100%; float:left; padding:0 0 11px 0; text-align:center;}
+.header-2 nav{ width:100%; float:left;}
+.header-2 nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-2 nav ul li{ float:none; display:inline; text-align:center;padding:0 20px 0 20px;}
+.header-2 nav ul li:last-child{ padding:0 0 0 0;}
+.header-2 nav ul li a{ display:inline-block; border-bottom:transparent 2px solid; color:#999999; text-transform:uppercase; padding:20px 0 10px 0; }
+.header-2 nav ul li a:hover{ color:#73b800; border-bottom:#73b800 2px solid;}
+.header-2 nav ul li a.active{ color:#73b800; border-bottom:#73b800 2px solid;}
+
+
+
+
+.header-3{ width:90%; float:left; background:url(../images/header-bg.png) left top no-repeat; padding:140px 5% 0 5%; }
+.header-3 section{ width:100%; float:left;}
+.header-3 section article{ width:100%; float:left; text-transform:uppercase;}
+.header-3 section article h1{ font-family:"Arial"; font-size:50px; font-weight:bold; color:#fff; text-align:center;}
+.header-3 section article h2{font-family:"Arial"; font-size:23px; font-weight:bold; color:#fff; padding:10px 0 0 0; text-shadow:#000 0 2px 5px; text-align:center;}
+.header-3 section aside{ width:55%; float:left; margin:43px 0 110px 24%; padding:0 0 0 0;}
+.input2{ width:80%; padding:0 0 0 5%; line-height:90px; border:none; outline:none; border-radius:5px; font-size:16px; color:#999999;float:left;}
+.input-btn{ width:15%; line-height:90px; border:none; outline:none; border-radius:0 5px 5px 0; background:url(../images/locate.png) center center no-repeat; background-color:#00336e;float:left;}
+.input-btn:hover{ background-color:#76b900; cursor:pointer;}
+
+
+
+.header-3 section footer{ width:100%; float:left; padding:21px 0 21px 0; background-color:#FFF; border-radius:5px; box-shadow:#333 0 0 15px;}
+.header-3 section footer figure{width:19%; float:left; padding:0 3% 0 3%; border-right:#999 solid 1px;}
+.header-3 section footer figure p{ font-size:16px; color:#999; padding:0 0 10px 0;}
+.date{ width:100%;  font-size:13px; color:#999; padding:10px 0 10px 0; border:none; text-transform:uppercase; font-family:"open sans"; outline:none; background:url(file:///D|/Students/1%20rizwan/HTML-5/5th/images/cal.png) right center no-repeat;}
+.adu{ width:100%;  font-size:13px; color:#999; padding:10px 0 10px 0; border:none; text-transform:uppercase; font-family:"open sans"; outline:none; }
+
+.header-3 section footer nav{ width:20%; float:right; margin:0 3% 0 0;}
+.header-3 section footer nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-3 section footer nav ul li{ margin:0 0 5px 0;}
+.header-3 section footer nav ul li a{ display:block; line-height:33px; border:#76b900 1px solid; text-align:center; color:#76b900; text-transform:uppercase; font-size:16px; font-weight:bold;}
+.header-3 section footer nav ul li a:hover{ background-color:#76b900; color:#fff;}
+
+
+
+
+
+.sec-1{ width:90%; float:left; padding:80px 5% 0 5%;}
+.sec-1 section{ width:94%; float:left; padding:0 3% 108px 3%;}
+.sec-1 header{ width:100%; float:left; font-size:38px; text-align:center; font-family:"Arial"; color:#00336e; text-transform:uppercase; font-weight:bold; padding:0 0 54px 0;}
+.sec-1 section article{ width:100%; float:left; padding:0 0 50px 0;}
+.sec-1 section article figure{ width:50%; float:left;}
+.sec-1 section article figcaption{ width:42%; float:left; background-color:#f7f7f7;padding:33px 4% 0 4%; position:relative;  }
+
+.posi-1{ position:absolute; height:40px; width:40px; right:0px; bottom:0; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+
+.sec-1 section article figcaption h1{ background:url(../images/line.png) left bottom no-repeat; font-size:16px; padding:0 0 10px 0; }
+.sec-1 section article figcaption h1::first-letter{ color:#C39; font-size:22px;}
+.sec-1 section article figcaption p{ color:#999999; padding:14px 0 33px 0; font-size:13px; line-height:18px;}
+.mar{ margin:0 0 0 0%;}
+
+.sec-1 section footer{ width:100%; float:left; }
+.sec-1 section footer ul{ list-style:none; margin:0px; padding:0px;}
+.sec-1 section footer ul li{ float:left; width:49%; margin:0 0 0 0; position:relative;transition:all 1s ease;}
+.sec-1 section footer ul li:nth-child(1){ margin:0 1% 0 0;}
+.sec-1 section footer ul li:nth-child(3){ margin:0 1% 0 0;}
+.sec-1 section footer ul li img{ width:100%; filter:blur(0px);}
+.sec-1 section footer ul li img:hover{ filter:blur(0px);}
+.posi-2{ display:none; position:absolute; height:40px; width:40px; right:0; top:0px; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+.sec-1 section footer ul li:last-child{ margin:0px;}
+.sec-1 section footer ul li:hover{ transform:none; }
+
+
+.sec-2{ width:100%; float:left; background:none; /* background:url(../images/round.png) right top no-repeat; text-align:center;*/ position:relative;}
+/*.sec-2-posi{ right:0; position:absolute; top:0;}*/
+.sec-2-posi{ right:0; position:absolute; top:0; z-index:0; width:95%;}
+.sec-2-posi img{ width:100%;}
+
+.sec-2 section{ width:94%; float:left; padding:106px 3% 105px 3%;}
+.sec-2 section article{ width:92%; float:left; padding:25px 4% 25px 4%; background:rgba(125, 225, 255, 0.8); margin:350px 0 0 0;}
+.sec-2 section article h1{ font-size:24px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-2 section article p{ color:#575757; font-size:17px; line-height:24px; padding:28px 0 28px 0;}
+.sec-2 section article a{ width:30%; display:inline-block; text-transform:uppercase; font-size:16px; color:#fff; line-height:57px; background-color:#76b900; text-align:center;}
+
+
+
+
+
+.sec-3{ width:100%; float:left;}
+.sec-3 section{ width:100%; float:left; text-align:center; padding:100px 0  236px 0;}
+.sec-3 section h1{ font-size:24px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-3 section p{ color:#575757; font-size:18px; line-height:24px; padding:20px 10% 0 10%;}
+
+
+
+
+
+
+
+
+.sec-4{ width:100%; float:left;text-align:center;}
+.sec-4 section{ width:94%; float:left; background-color:#dddddd; height:inherit; text-align:center; padding:30px 3% 60px 3%; }
+.sec-4 section ul{ list-style:none; margin:0px; padding:0px; }
+
+.sec-4 section ul li{ width:30%; float:left;  border:#fff 10px solid; margin:0 1px 0 0;  cursor:pointer; }
+.sec-4 section ul li:hover{ border:#76b900 10px solid; transition:all 1s ease;}
+.sec-4 section ul li:nth-child(3){ transform:none;}
+.sec-4 section ul li:nth-child(5){ float:none; display:none;}
+.sec-4 section ul li:nth-child(1){ display:none;}
+.sec-4 section ul li img{ width:100%;}
+
+.sec-4 section ul li img:hover{ filter:hue(100%);}
+
+.sec-4 aside{ width:100%; float:left;  transform:none; margin:-35px 0 0 0;}
+.sec-4 aside ul{ list-style:none; margin:0px; padding:0px;}
+.sec-4 aside ul li{ display:inline; margin:0 5px 0 0;}
+.sec-4 aside ul li a{  height:15px; width:15px; border-radius:50%; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a:hover{ background-color:#76b900; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a.activegol{ background-color:#76b900; border:#6e88a5 1px solid;} 
+
+
+
+
+
+
+.sec-5{ width:94%; float:left; padding:73px 3% 0px 3%;}
+.sec-5 section{ width:100%; float:left; padding:0 0 0 0%; text-align:center;}
+.sec-5 section header{ width:100%; float:left; font-size:30px; font-weight:bold; color:#00336e; text-transform:uppercase; padding:0 0 55px 0; text-align:center;}
+.sec-5 section figure{ width:50%; float:left; position:relative; margin:0 0 30px 0;}
+.sec-5 section figure img{ width:100%;}
+.pos-btn{ position:absolute; height:50px; width:30%; right:0px; bottom:5px; background-color:#00336e;}
+.sec-5 section figcaption{ width:45%; float:left; text-align:center; padding:10px 0 25px 0; margin:0 0 20px 0; border:#f1f1f1 10px solid; box-shadow:none ; border-radius:5px;}
+.sec-5 section figcaption h1{ font-size:18px; text-transform:uppercase; color:#575757; font-weight:bold;}
+.sec-5 section figcaption p{ color:#575757; font-size:13px; line-height:18px; padding:10px 5% 20px 5%;}
+.sec-5 section figcaption a{ width:45%; display:inline-block; font-size:13px; background:#76b900; text-transform:uppercase; margin:0 auto 0 auto; line-height:40px; color:#fff; font-weight:bold;}
+.sec-5 section figcaption a:hover{ background-color:#325787;} 
+
+
+
+
+
+
+
+
+
+.sec-6 section footer{ width:90%; float:left; padding:0 5% 115px 5%;}
+.sec-6 section footer figure{ width:50%; float:left;}
+.sec-6 section footer figure img{ width:auto;}
+.sec-6 section footer figcaption{ width:38.50%; float:left; padding:45px 3% 0 8%; background-color:#fff; border:#f6f6f6 1px solid;}
+.sec-6 section footer figcaption h1{ color:#575757; font-size:22px; font-weight:bold; padding:0 0 42px 0;}
+.sec-6 section footer figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section footer figcaption  ul li{ padding:0 0 10px 0; border-bottom:#cccccc 1px solid;}
+.sec-6 section footer figcaption  a{ width:30%; display:block; background-color:#76b900; border-radius:20px; line-height:40px; font-size:14px; color:#fff; text-align:center; margin:50px 0 42px 0;}
+.sec-6 section footer figcaption  a:hover{ background-color:#00336e;}
+
+.input-send{ width:100%; border:none; outline:none; padding:20px 0 0 0; color:#bec3c7; font-family:"Open Sans";}
+
+
+
+
+
+
+.foot-1{ width:94%; float:left; background:url(../images/footer-bg.png) left top no-repeat; padding:85px 3% 0 3%; background-size:cover; }
+.foot-1 section{ width:100%; float:left;}
+.foot-1 section header{ width:100%; float:left; padding:0 0 53px 0 ; border-bottom:#313131 1px solid;}
+.foot-1 section header aside{ width:45%; float:left; margin:20px 0 0 0;}
+.foot-1 section header aside h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header aside ul{ width:40%; list-style:none; margin:0px; padding:0px 10px 0 0; float:left;}
+.foot-1 section header aside ul.asideul{ width:100%;}
+
+.foot-1 section header aside ul li{ line-height:30px; background:url(../images/arrow.png) left center no-repeat;}
+.foot-1 section header aside ul li a{ display:block; color:#fff; font-size:14px; padding:0 0 0 15%;}
+.foot-1 section header aside ul li a:hover{ color:#C30;}
+
+.foot-1 section header article{ width:50%; float:right; margin:20px 0 0 0;}
+.foot-1 section header article h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header article ul{list-style:none; margin:0px;}
+.foot-1 section header article ul li{ line-height:30px; color:#fff; }
+.foot-1 section header article ul li a{ display:block; color:#fff; font-size:14px; background:url(../images/f-top.png) left center no-repeat; padding:0 0 0 15%}
+.foot-1 section header article ul li a:hover{ color:#C30;}
+
+.foot-1 section header article ul li a.info{  background:url(../images/f1.png) left center no-repeat;}
+.foot-1 section header article ul li a.phonee{  background:url(../images/f2.png) left center no-repeat;}
+.foot-1 section header article ul li a.emaill{ background:url(../images/f3.png) left center no-repeat;}
+
+
+.foot-1 section header nav{ width:40%; float:right; margin:0 0 0 0;}
+.foot-1 section header nav h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header nav ul{list-style:none; margin:0px;}
+.foot-1 section header nav ul li{ float:left; margin:0 10px 0 0;}
+.foot-1 section header nav ul li:nth-child(4){ margin:0px;}
+.foot-1 section header nav ul li:nth-child(8){ margin:0px;}
+.foot-1 section header nav ul li:hover{ transform:scale(1.1,1.1); transition:all 1s ease;}
+
+
+
+
+.foot-1 section footer{ width:100%; float:left;}
+.foot-1 section footer aside{ width:80%; float:left; font-size:13px; color:#fff; line-height:70px;}
+.foot-1 section footer article{ width:20%; float:right; }
+.foot-1 section footer article a{ display:block;font-size:13px; font-weight:bold; color:#fff; line-height:60px; background:url(../images/arrow-top.png) right center no-repeat;}
+.foot-1 section footer article a:hover{ color:#C30; background:url(../images/arrow-top-ho.png) right center no-repeat;}
+
+
+
+.full{ width:100%; float:left;}
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width:640px)
+
+
+{
+
+.wrap{ width:100%; margin:0 auto 0  auto;}
+
+
+.header-main{ width:100%; float:left; text-align:center; padding:0 0 0 0;}
+
+.header-1{ width:94%; float:left; border-bottom:#f4f4f4 1px solid; padding:0 3% 0 3%;}
+.header-1 hgroup{ width:100%; float:left; padding:25px 0 20px 0;}
+.header-1 hgroup img{ width:auto;}
+.header-1 aside{ width:99%; float:left; margin:0 0 0 0; padding:5px 0 5px 0; border:#CCC solid 1px;}
+.input{ width:100%; background:url(../images/srch.png) 5% center no-repeat; border:none; outline:none; font-size:13px; color:#999999; font-family:"Open Sans"; padding:10px 0 10px 0%; text-align:center;}
+.header-1 article{ width:100%; float:right;  padding:0 0 0 0}
+.header-1 article figcaption { width:100%; float:left;border-right:none; border-bottom:#cccccc 1px solid; padding:30px 0 30px 0; }
+.grren-input{ width:50%; text-align:center; line-height:45px; background-color:#76b900; outline:none; border:none; font-size:12px; font-weight:bold; color:#fff; cursor:pointer; box-shadow:#CCC 2px 2px 10px;}
+.grren-input:hover{ background-color:#0b5385;box-shadow:#C6F 1px 1px 2px;}
+
+.header-1 article figure { width:45%; float:none; padding:30px 0 20px 15%; font-size:18px; background:url(../images/man.png) 10% center no-repeat; text-align:center; display:inline-block; margin: 0 0 20px 0;}
+
+
+
+
+
+.header-2{ width:94%; float:left; padding:0 3% 11px 3%;text-align:center;}
+.header-2 nav{ width:100%; float:left; }
+.header-2 nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-2 nav ul li{ float:none;display:inline; text-align:center;padding:0 10px 0 10px;}
+.header-2 nav ul li:last-child{ padding:0 0 0 0;}
+.header-2 nav ul li a{ display:inline-block; border-bottom:transparent 2px solid; font-size:14px; color:#999999; text-transform:uppercase; padding:10px 0 10px 0; }
+.header-2 nav ul li a:hover{ color:#73b800; border-bottom:#73b800 2px solid;}
+.header-2 nav ul li a.active{ color:#73b800; border-bottom:#73b800 2px solid;}
+
+
+
+.header-3{ width:100%; float:left; background:url(../images/header-bg.png) center top no-repeat; padding:100px 0 0 0; text-align:center; background-size:cover; }
+.header-3 section{ width:100%; float:left;}
+.header-3 section article{ width:100%; float:left; text-transform:uppercase;}
+.header-3 section article h1{ font-family:"Arial"; font-size:40px; font-weight:bold; color:#fff; text-align:center;}
+.header-3 section article h2{font-family:"Arial"; font-size:20px; font-weight:bold; color:#fff; padding:10px 0 0 0; text-shadow:#000 0 2px 5px; text-align:center;}
+.header-3 section aside{ width:80%; float:left; margin:43px 0 110px 10%; padding:0 0 0 0;}
+.input2{ width:80%; padding:0 0 0 5%; line-height:70px; border:none; outline:none; border-radius:5px; font-size:16px; color:#999999;float:left;}
+.input-btn{ width:15%; line-height:70px; border:none; outline:none; border-radius:0 5px 5px 0; background:url(../images/locate.png) center center no-repeat; background-color:#00336e;float:left;}
+.input-btn:hover{ background-color:#76b900; cursor:pointer;}
+
+
+
+.header-3 section footer{ width:90%; float:left; padding:21px 5% 21px 5%; box-shadow:none; border:none;}
+.header-3 section footer figure{width:100%; float:left; padding:0 0 0 0; border-right:none;background-color:#FFF; border-radius:5px;  text-align:left; margin:0 0 10px 0;}
+.header-3 section footer figure p{ font-size:16px; color:#999; padding:0 0 10px 0;}
+.date{ width:100%; text-align:center;  font-size:16px; color:#999; padding:10px 0 10px 0; border:#ccc solid 1px; text-transform:uppercase; font-family:"open sans"; outline:none; background:url(file:///D|/Students/1%20rizwan/HTML-5/5th/images/cal.png) 97% center no-repeat;}
+.adu{ width:100%;  font-size:16px; color:#999; padding:10px 0 10px 0;border:#ccc solid 1px; text-transform:uppercase; font-family:"open sans"; outline:none; }
+
+.header-3 section footer nav{ width:100%; float:left; margin:20px 0 0 0; text-align:center;}
+.header-3 section footer nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-3 section footer nav ul li{ margin:0 0 5px 0; display:inline;}
+.header-3 section footer nav ul li a{ display:inline-block; line-height:45px; border:#76b900 1px solid; text-align:center; color:#76b900; text-transform:uppercase; font-size:15px; font-weight:bold; padding:0 10px 0 10px ;  }
+.header-3 section footer nav ul li a:hover{ background-color:#76b900; color:#fff;}
+
+
+
+/**********************section tags ends***********************/
+.sec-1{ width:100%; float:left; padding:80px 0 0 0;}
+.sec-1 section{ width:94%; float:left; padding:0 3% 100px 3%;}
+.sec-1 header{ width:100%; float:left; font-size:30px; font-family:"Arial"; color:#00336e; text-transform:uppercase; font-weight:bold; padding:0 0 54px 0;}
+.sec-1 section article{ width:100%; float:left; padding:0 0 50px 0;}
+.sec-1 section article figure{ width:50%; float:left;}
+.sec-1 section article figure img{ width:100%;}
+.sec-1 section article figcaption{ width:44%; float:left; background-color:#f7f7f7;padding:10px 3% 0 3%; position:relative;  }
+
+.posi-1{ position:absolute; height:40px; width:40px; right:0px; bottom:0; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+
+.sec-1 section article figcaption h1{ background:url(../images/line.png) left bottom no-repeat; font-size:14px; padding:0 0 10px 0; }
+.sec-1 section article figcaption h1:first-letter{ color:#C39; font-size:22px;}
+.sec-1 section article figcaption p{ color:#999999; padding:10px 0 22px 0; font-size:12px; line-height:17px;}
+.mar{ margin:0 0 0 0;}
+
+.sec-1 section footer{ width:100%; float:left;}
+.sec-1 section footer ul{ list-style:none; margin:0px; padding:0px;}
+.sec-1 section footer ul li{ float:left; width:100%; margin:0 0 0 0; position:relative;transition:all 1s ease;}
+.sec-1 section footer ul li img{ width:100%; filter:blur(0);filter:hue-rotate(145deg)}
+.sec-1 section footer ul li img:hover{ filter:blur(0px);}
+.posi-2{ position:absolute; height:40px; width:40px; right:4px; top:0px; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+.sec-1 section footer ul li:last-child{ margin:0px;}
+.sec-1 section footer ul li:hover{ transform:none; }
+
+
+.sec-2{ width:100%; float:left; background:none; /* background:url(../images/round.png) right top no-repeat; text-align:center;*/ position:relative;}
+/*.sec-2-posi{ right:0; position:absolute; top:0;}*/
+.sec-2-posi{ right:0; position:absolute; top:0; z-index:0; width:95%;}
+.sec-2-posi img{ width:100%;}
+
+.sec-2 section{ width:94%; float:left; padding:106px 3% 105px 3%;}
+.sec-2 section article{ width:92%; float:left; padding:25px 4% 25px 4%; background:rgba(125, 225, 255, 0.8); margin:350px 0 0 0;}
+.sec-2 section article h1{ font-size:24px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-2 section article p{ color:#575757; font-size:17px; line-height:24px; padding:28px 0 28px 0;}
+.sec-2 section article a{ width:60%; display:inline-block; text-align:center; text-transform:uppercase; font-size:16px; color:#fff; line-height:57px; background-color:#76b900; text-align:center;}
+.sec-2 section article a:hover{ background-color:#00336e;}
+
+
+
+.sec-3{ width:94%; float:left; text-align:center; padding:0 3% 0 3%;}
+.sec-3 section{ width:100%; float:left; text-align:center; padding:0 0  100px 0;}
+.sec-3 section h1{ font-size:22px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-3 section p{ color:#575757; font-size:14px; line-height:24px; padding:20px 10% 0 10%;}
+
+
+
+.sec-4{ width:100%; float:left;text-align:center;}
+.sec-4 section{ width:94%; float:left; background-color:#dddddd; height:inherit; text-align:center; padding:40px 3% 40px 3%; }
+.sec-4 section ul{ list-style:none; margin:0px; padding:0px; }
+.sec-4 section ul li img{ width:100%;}
+.sec-4 section ul li{ width:96%; float:left; border:#fff 10px solid; margin:0 0px 10px 0;  cursor:pointer;}
+.sec-4 section ul li:hover{ border:#76b900 10px solid; transition:all 1s ease;}
+.sec-4 section ul li:nth-child(3){ transform:none;}
+.sec-4 section ul li:nth-child(5){ float:none; display:none;}
+.sec-4 section ul li:nth-child(1){ display:none;}
+
+.sec-4 section ul li img{ filter:hue-rotate(145deg);}
+.sec-4 section ul li img:hover{ filter:hue(100%);}
+
+.sec-4 aside{ width:100%; float:left;  transform:none;}
+.sec-4 aside ul{ list-style:none; margin:0px; padding:0px;}
+.sec-4 aside ul li{ display:inline; margin:0 5px 0 0;}
+.sec-4 aside ul li a{  height:15px; width:15px; border-radius:50%; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a:hover{ background-color:#76b900; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a.activegol{ background-color:#76b900; border:#6e88a5 1px solid;}   
+
+
+
+.sec-5{ width:94%; float:left; padding:73px 3% 0px 3%;}
+.sec-5 section{ width:100%; float:left; padding:0 0 0 0%; text-align:center;}
+.sec-5 section header{ width:100%; float:left; font-size:30px; font-weight:bold; color:#00336e; text-transform:uppercase; padding:0 0 55px 0;}
+.sec-5 section figure{ width:100%; float:left; position:relative;}
+.sec-5 section figure img{ width:100%;}
+.pos-btn{ position:absolute; height:50px; width:30%; right:0px; bottom:5px; background-color:#00336e;}
+.sec-5 section figcaption{ width:89%; float:right; text-align:center; padding:40px 2% 25px 2%; margin:30px 0 50px 0; border:#f1f1f1 10px solid; box-shadow:none ; border-radius:5px;}
+.sec-5 section figcaption h1{ font-size:20px; text-transform:uppercase; color:#575757; font-weight:bold;}
+.sec-5 section figcaption p{ color:#575757; font-size:15px; line-height:24px; padding:28px 12% 30px 12%;}
+.sec-5 section figcaption a{ width:45%; display:inline-block; font-size:13px; background:#76b900; text-transform:uppercase; margin:0 auto 0 auto; line-height:55px; color:#fff; font-weight:bold;}
+.sec-5 section figcaption a:hover{ background-color:#325787;}
+
+
+
+
+
+.sec-6{ width:94%; float:left; background:url(../images/blue-bg.png) left top no-repeat; background-size:cover; padding:80px 3% 0 3%;}
+.sec-6 section{ width:100%; float:left;}
+.sec-6 section header{ width:100%; float:left; text-align:center; padding:0 0 50px 0;}
+.sec-6 section header h1{ font-size:25px; color:#FFF; letter-spacing:3px; padding:0 0 25px 0; background:url(../images/msg-line.png) center bottom no-repeat;}
+.sec-6 section header p{ font-size:18px; color:#FFF; padding:40px 10% 30px 10%; line-height:34px;	}
+.sec-6 section header ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section header ul li{ display:inline;}
+.sec-6 section header ul li a{ display:inline-block; height:50px ; width:50px; background:url(../images/twi.png) left center no-repeat;}
+.sec-6 section header ul li a:hover{ background:url(../images/twi-ho.png) left center no-repeat;}
+
+
+.sec-6 section header ul li a.be{ background:url(../images/be.png) left center no-repeat;}
+.sec-6 section header ul li a.be:hover{ background:url(../images/be-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section header ul li a.in{ background:url(../images/in.png) left center no-repeat;}
+.sec-6 section header ul li a.in:hover{ background:url(../images/in-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section header ul li a.gol{ background:url(../images/gol.png) left center no-repeat;}
+.sec-6 section header ul li a.gol:hover{ background:url(../images/gol-ho.png) left center no-repeat;}
+
+
+
+.sec-6 section footer{ width:80%; float:left; padding:0 10% 115px 10%;}
+.sec-6 section footer figure{ width:100%; float:left;}
+.sec-6 section footer figure img{ width:100%;}
+.sec-6 section footer figcaption{ width:99%; float:left; padding:45px 0 0 0; background-color:#fff; border:#f6f6f6 1px solid;}
+.sec-6 section footer figcaption h1{ color:#575757; font-size:22px; font-weight:bold; padding:0 0 42px 0; text-align:center;}
+.sec-6 section footer figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section footer figcaption  ul li{ padding:0 0 10px 0; border-bottom:#cccccc 1px solid;}
+.sec-6 section footer figcaption  a{ width:30%; display:block; background-color:#76b900; border-radius:20px; line-height:40px; font-size:14px; color:#fff; text-align:center; margin:50px auto 42px auto;}
+.sec-6 section footer figcaption  a:hover{ background-color:#00336e;}
+
+.input-send{ width:100%; display:inline-block;border:none; outline:none; padding:20px 0 0 0; color:#bec3c7; font-family:"Open Sans"; text-align:center; }
+
+
+
+
+
+
+/**********************footer tags starts***********************/
+.foot-1{ width:90%; float:left; background:url(../images/footer-bg.png) left top no-repeat; padding:70px 5% 0 5%;  background-size:cover;}
+.foot-1 section{ width:100%; float:left;}
+.foot-1 section header{ width:100%; float:left; padding:0 0 53px 0 ; border-bottom:#313131 1px solid; }
+.foot-1 section header aside{ width:100%;  float:none; text-align:center; margin:0 0 20px 0; padding:0 0 0 0;}
+.foot-1 section header aside h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header aside ul{ width:100%; list-style:none; margin:0px; padding:0px 0px 0 0;display:inline; float:none; text-align:center;}
+.foot-1 section header aside ul.asideul{ width:100%; }
+
+.foot-1 section header aside ul li{ display:inline-block; text-align:center; line-height:30px; background:url(../images/arrow.png) left center no-repeat;}
+.foot-1 section header aside ul li a{ display:inline-block; color:#fff; font-size:14px; padding:0 0 0 15%;}
+.foot-1 section header aside ul li a:hover{ color:#C30;}
+
+.foot-1 section header article{ width:100%; float:left; margin:30px 0% 30px 0%; text-align:center;}
+.foot-1 section header article h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header article ul{list-style:none; margin:0px; padding:0px; text-align:center;}
+.foot-1 section header article ul li{ line-height:30px; color:#fff; display:inline-block; }
+.foot-1 section header article ul li a{ display:inline-block; color:#fff; font-size:14px; background:url(../images/f-top.png) 12% 10px no-repeat; padding:0 0 0 15%}
+.foot-1 section header article ul li a:hover{ color:#C30;}
+
+.foot-1 section header article ul li a.info{  background:url(../images/f1.png) left center no-repeat;}
+.foot-1 section header article ul li a.phonee{  background:url(../images/f2.png) left center no-repeat;}
+.foot-1 section header article ul li a.emaill{ background:url(../images/f3.png) left center no-repeat;}
+
+
+.foot-1 section header nav{ width:100%; float:left; margin:20px 0 0 0%; text-align:center;}
+.foot-1 section header nav h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header nav ul{list-style:none; margin:0px;}
+.foot-1 section header nav ul li{ float:none; text-align:center; margin:0 3% 5px 0; display:inline-block;}
+.foot-1 section header nav ul li:nth-child(4){ margin:0px 4%;}
+.foot-1 section header nav ul li:nth-child(8){ margin:0px;}
+.foot-1 section header nav ul li:hover{ transform:scale(1.1,1.1); transition:all 1s ease;}
+
+
+
+
+.foot-1 section footer{ width:100%; float:left;}
+.foot-1 section footer aside{ width:100%; float:left; font-size:14px; color:#fff; line-height:20px; text-align:center; padding:30px 0;}
+.foot-1 section footer article{ width:100%; float:right; text-align:center; }
+.foot-1 section footer article a{ display:inline; text-align:center; font-size:14px; font-weight:bold; color:#fff; line-height:60px; background:url(../images/arrow-top.png) right center no-repeat; padding:0 5% 0 0;}
+.foot-1 section footer article a:hover{ color:#C30; background:url(../images/arrow-top-ho.png) right center no-repeat;}
+
+
+
+
+
+.posi-input{ width:100% ; height:100%; background-color:#00336e; border:none; outline:none; font-weight:bold; text-align:center; color:#fff; text-transform:uppercase; cursor:pointer;}
+.posi-input:hover{ background-color:#76b900;}
+
+.posi-start{ position:absolute; height:100px; width:40%; left:0; top:5%; text-align:center; text-transform:uppercase;}
+.posi-start h1{ font-size:14px; color:#fff; font-weight:bold;}
+.posi-start h2{ font-size:30px; font-weight:bold; color:#fff; }
+/**********************footer tags ends***********************/
+	
+}
+
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+
+{
+.wrap{ width:100%; margin:0 auto 0  auto;}
+
+.header-1{ width:94%; float:left; border-bottom:#f4f4f4 1px solid; padding:0 3% 0 3%; }
+.header-1 hgroup{ width:20%; float:left; padding:25px 0 40px 0; text-align:center;}
+.header-1 hgroup img{ width:100%;}
+.header-1 aside{ width:25%; float:left; margin:0 0 0 10%; padding:20px 0 35px 0;}
+.input{ width:85%; background:url(../images/srch.png) left center no-repeat; border:none; outline:none; font-size:13px; color:#999999; font-family:"Open Sans"; padding:10px 0 10px 15%;}
+.header-1 article{ width:40%; float:left;  padding:15px 0 0 0}
+.header-1 article figcaption { width:50%; float:left; border-right:#cccccc 1px solid; }
+.grren-input{ width:90%; text-align:center; line-height:45px; background-color:#76b900; outline:none; border:none; font-size:12px; font-weight:bold; color:#fff; cursor:pointer; box-shadow:#CCC 2px 2px 0;}
+.grren-input:hover{ background-color:#0b5385;box-shadow:#C6F 1px 1px 2px;}
+
+.header-1 article figure { width:20%; float:left; padding:25px 0 20px 25%; font-size:18px; background:url(../images/man.png) 15% center no-repeat;}
+
+
+
+.header-2{ width:100%; float:left; padding:0 0 11px 0; text-align:center;}
+.header-2 nav{ width:100%; float:left;}
+.header-2 nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-2 nav ul li{ float:none; display:inline; text-align:center;padding:0 20px 0 20px;}
+.header-2 nav ul li:last-child{ padding:0 0 0 0;}
+.header-2 nav ul li a{ display:inline-block; border-bottom:transparent 2px solid; color:#999999; text-transform:uppercase; padding:20px 0 10px 0; }
+.header-2 nav ul li a:hover{ color:#73b800; border-bottom:#73b800 2px solid;}
+.header-2 nav ul li a.active{ color:#73b800; border-bottom:#73b800 2px solid;}
+
+
+
+
+.header-3{ width:90%; float:left; background:url(../images/header-bg.png) left top no-repeat; padding:140px 5% 0 5%; }
+.header-3 section{ width:100%; float:left;}
+.header-3 section article{ width:100%; float:left; text-transform:uppercase;}
+.header-3 section article h1{ font-family:"Arial"; font-size:50px; font-weight:bold; color:#fff; text-align:center;}
+.header-3 section article h2{font-family:"Arial"; font-size:23px; font-weight:bold; color:#fff; padding:10px 0 0 0; text-shadow:#000 0 2px 5px; text-align:center;}
+.header-3 section aside{ width:55%; float:left; margin:43px 0 110px 24%; padding:0 0 0 0;}
+.input2{ width:80%; padding:0 0 0 5%; line-height:90px; border:none; outline:none; border-radius:5px; font-size:16px; color:#999999;float:left;}
+.input-btn{ width:15%; line-height:90px; border:none; outline:none; border-radius:0 5px 5px 0; background:url(../images/locate.png) center center no-repeat; background-color:#00336e;float:left;}
+.input-btn:hover{ background-color:#76b900; cursor:pointer;}
+
+
+
+.header-3 section footer{ width:100%; float:left; padding:21px 0 21px 0; background-color:#FFF; border-radius:5px; box-shadow:#333 0 0 15px;}
+.header-3 section footer figure{width:19%; float:left; padding:0 3% 0 3%; border-right:#999 solid 1px;}
+.header-3 section footer figure p{ font-size:16px; color:#999; padding:0 0 10px 0;}
+.date{ width:100%;  font-size:13px; color:#999; padding:10px 0 10px 0; border:none; text-transform:uppercase; font-family:"open sans"; outline:none; background:url(file:///D|/Students/1%20rizwan/HTML-5/5th/images/cal.png) right center no-repeat;}
+.adu{ width:100%;  font-size:13px; color:#999; padding:10px 0 10px 0; border:none; text-transform:uppercase; font-family:"open sans"; outline:none; }
+
+.header-3 section footer nav{ width:20%; float:right; margin:0 3% 0 0;}
+.header-3 section footer nav ul{ list-style:none; margin:0px; padding:0px;}
+.header-3 section footer nav ul li{ margin:0 0 5px 0;}
+.header-3 section footer nav ul li a{ display:block; line-height:33px; border:#76b900 1px solid; text-align:center; color:#76b900; text-transform:uppercase; font-size:16px; font-weight:bold;}
+.header-3 section footer nav ul li a:hover{ background-color:#76b900; color:#fff;}
+
+
+
+
+
+.sec-1{ width:100%; float:left; padding:80px 0 0 0;}
+.sec-1 section{ width:94%; float:left; padding:0 3% 108px 3%;}
+.sec-1 header{ width:100%; float:left; font-size:30px; font-family:"Arial"; color:#00336e; text-transform:uppercase; font-weight:bold; padding:0 0 54px 0;}
+.sec-1 section article{ width:46%; float:left; padding:0 2% 50px 2%;}
+.sec-1 section article figure{ width:100%; float:left;}
+.sec-1 section article figure img { width:100%;}
+.sec-1 section article figcaption{ width:92%; float:left; background-color:#f7f7f7;padding:33px 4% 0 4%; position:relative;  margin:-10px 0 0 0; }
+
+.posi-1{ position:absolute; height:40px; width:40px; right:0px; bottom:0; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+
+.sec-1 section article figcaption h1{ background:url(../images/line.png) left bottom no-repeat; font-size:15px; padding:0 0 10px 0; }
+.sec-1 section article figcaption h1::first-letter{ color:#C39; font-size:22px;}
+.sec-1 section article figcaption p{ color:#999999; padding:20px 0 35px 0; font-size:12px; line-height:18px; }
+.mar{ margin:0 0 0 0;}
+
+.sec-1 section footer{ width:100%; float:left;}
+.sec-1 section footer ul{ list-style:none; margin:0px; padding:0px;}
+.sec-1 section footer ul li{ float:left; width:24%; margin:0 1.33% 0 0; position:relative;transition:all 1s ease;}
+.sec-1 section footer ul li img{ width:100%; filter:blur(0);}
+.sec-1 section footer ul li img:hover{ filter:blur(0px);}
+.posi-2{ position:absolute; height:40px; width:40px; right:0; top:0px; background:url(../images/plus.png) left top no-repeat; cursor:pointer;}
+.sec-1 section footer ul li:last-child{ margin:0px;}
+.sec-1 section footer ul li:hover{ transform:none; }
+
+.sec-2{ width:100%; float:left; background:none; /* background:url(../images/round.png) right top no-repeat; text-align:center;*/ position:relative;}
+/*.sec-2-posi{ right:0; position:absolute; top:0;}*/
+.sec-2-posi{ right:0; position:absolute; top:0; z-index:-1; width:85%;}
+.sec-2-posi img{ width:100%;}
+
+.sec-2 section{ width:94%; float:left; padding:106px 3% 105px 3%;}
+.sec-2 section article{ width:92%; float:left; padding:35px 4% 35px 4%; background:rgba(255, 255, 255, 0.8); margin:0 0 0 0; }
+.sec-2 section article h1{ font-size:24px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-2 section article p{ color:#575757; font-size:17px; line-height:24px; padding:28px 0 28px 0;}
+.sec-2 section article a{ width:30%; display:inline-block; text-transform:uppercase; font-size:16px; color:#fff; line-height:57px; background-color:#76b900; text-align:center;}
+
+
+
+
+
+.sec-3{ width:100%; float:left;}
+.sec-3 section{ width:100%; float:left; text-align:center; padding:100px 0  150px 0;}
+.sec-3 section h1{ font-size:24px; text-transform:uppercase; color:#00336e; font-weight:bold;}
+.sec-3 section p{ color:#575757; font-size:18px; line-height:24px; padding:20px 10% 0 10%;}
+
+
+
+
+
+
+
+
+.sec-4{ width:100%; float:left;text-align:center;}
+.sec-4 section{ width:94%; float:left; background-color:#dddddd; height:inherit; text-align:center; padding:30px 3% 60px 3%; }
+.sec-4 section ul{ list-style:none; margin:0px; padding:0px; }
+
+.sec-4 section ul li{ width:30%; float:left;  border:#fff 10px solid; margin:0 1px 0 0;  cursor:pointer; }
+.sec-4 section ul li:hover{ border:#76b900 10px solid; transition:all 1s ease;}
+.sec-4 section ul li:nth-child(3){ transform:none;}
+.sec-4 section ul li:nth-child(5){ float:none; display:none;}
+.sec-4 section ul li:nth-child(1){ display:none;}
+.sec-4 section ul li img{ width:100%;}
+
+.sec-4 section ul li img:hover{ filter:hue(100%);}
+
+.sec-4 aside{ width:100%; float:left;  transform:none; margin:-35px 0 0 0;}
+.sec-4 aside ul{ list-style:none; margin:0px; padding:0px;}
+.sec-4 aside ul li{ display:inline; margin:0 5px 0 0;}
+.sec-4 aside ul li a{  height:15px; width:15px; border-radius:50%; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a:hover{ background-color:#76b900; border:#6e88a5 1px solid;}
+.sec-4 aside ul li a.activegol{ background-color:#76b900; border:#6e88a5 1px solid;} 
+
+
+
+
+
+.sec-5{ width:94%; float:left; padding:73px 3% 0px 3%;}
+.sec-5 section{ width:100%; float:left; padding:0 0 0 0%; text-align:center;}
+.sec-5 section header{ width:100%; float:left; font-size:30px; font-weight:bold; color:#00336e; text-transform:uppercase; padding:0 0 55px 0; text-align:center;}
+.sec-5 section figure{ width:50%; float:left; position:relative; margin:0 0 30px 0;}
+.sec-5 section figure img{ width:100%;}
+.pos-btn{ position:absolute; height:50px; width:30%; right:0px; bottom:5px; background-color:#00336e;}
+.sec-5 section figcaption{ width:43%; float:right; text-align:center; padding:10px 0 25px 0; margin:0 0 20px 0; border:#f1f1f1 10px solid; box-shadow:none ; border-radius:5px;}
+.sec-5 section figcaption h1{ font-size:18px; text-transform:uppercase; color:#575757; font-weight:bold;}
+.sec-5 section figcaption p{ color:#575757; font-size:13px; line-height:18px; padding:10px 5% 20px 5%;}
+.sec-5 section figcaption a{ width:45%; display:inline-block; font-size:13px; background:#76b900; text-transform:uppercase; margin:0 auto 0 auto; line-height:40px; color:#fff; font-weight:bold;}
+.sec-5 section figcaption a:hover{ background-color:#325787;} 
+
+
+
+
+
+
+
+
+
+.sec-6 section footer{ width:90%; float:left; padding:0 5% 115px 5%;}
+.sec-6 section footer figure{ width:50%; float:left;}
+.sec-6 section footer figure img{ width:auto;}
+.sec-6 section footer figcaption{ width:38.50%; float:left; padding:45px 3% 0 8%; background-color:#fff; border:#f6f6f6 1px solid;}
+.sec-6 section footer figcaption h1{ color:#575757; font-size:22px; font-weight:bold; padding:0 0 42px 0;}
+.sec-6 section footer figcaption ul{ list-style:none; margin:0px; padding:0px;}
+.sec-6 section footer figcaption  ul li{ padding:0 0 10px 0; border-bottom:#cccccc 1px solid;}
+.sec-6 section footer figcaption  a{ width:30%; display:block; background-color:#76b900; border-radius:20px; line-height:40px; font-size:14px; color:#fff; text-align:center; margin:50px 0 42px 0;}
+.sec-6 section footer figcaption  a:hover{ background-color:#00336e;}
+
+.input-send{ width:100%; border:none; outline:none; padding:20px 0 0 0; color:#bec3c7; font-family:"Open Sans";}
+
+
+
+
+
+
+.foot-1{ width:94%; float:left; background:url(../images/footer-bg.png) left top no-repeat; padding:85px 3% 0 3%; background-size:cover; }
+.foot-1 section{ width:100%; float:left;}
+.foot-1 section header{ width:100%; float:left; padding:0 0 53px 0 ; border-bottom:#313131 1px solid;}
+.foot-1 section header aside{ width:50%; float:left; margin:20px 0 0 0;}
+.foot-1 section header aside h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header aside ul{ width:40%; list-style:none; margin:0px; padding:0px 10px 0 0; float:left;}
+.foot-1 section header aside ul.asideul{ width:100%;}
+
+.foot-1 section header aside ul li{ line-height:30px; background:url(../images/arrow.png) left center no-repeat;}
+.foot-1 section header aside ul li a{ display:block; color:#fff; font-size:14px; padding:0 0 0 15%;}
+.foot-1 section header aside ul li a:hover{ color:#C30;}
+
+.foot-1 section header article{ width:50%; float:right; margin:20px 0 0 0;}
+.foot-1 section header article h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header article ul{list-style:none; margin:0px;}
+.foot-1 section header article ul li{ line-height:30px; color:#fff; }
+.foot-1 section header article ul li a{ display:block; color:#fff; font-size:14px; background:url(../images/f-top.png) left center no-repeat; padding:0 0 0 15%}
+.foot-1 section header article ul li a:hover{ color:#C30;}
+
+.foot-1 section header article ul li a.info{  background:url(../images/f1.png) left center no-repeat;}
+.foot-1 section header article ul li a.phonee{  background:url(../images/f2.png) left center no-repeat;}
+.foot-1 section header article ul li a.emaill{ background:url(../images/f3.png) left center no-repeat;}
+
+
+.foot-1 section header nav{ width:40%; float:left; margin:0 0 0 0;}
+.foot-1 section header nav h1{ text-transform:uppercase;font-size:18px; color:#fff; font-weight:bold; padding:0 0 30px 0;}
+.foot-1 section header nav ul{list-style:none; margin:0px;}
+.foot-1 section header nav ul li{ float:left; margin:0 10px 0 0;}
+.foot-1 section header nav ul li:nth-child(4){ margin:0px;}
+.foot-1 section header nav ul li:nth-child(8){ margin:0px;}
+.foot-1 section header nav ul li:hover{ transform:scale(1.1,1.1); transition:all 1s ease;}
+
+
+
+
+.foot-1 section footer{ width:100%; float:left;}
+.foot-1 section footer aside{ width:80%; float:left; font-size:13px; color:#fff; line-height:70px;}
+.foot-1 section footer article{ width:20%; float:right; }
+.foot-1 section footer article a{ display:block;font-size:13px; font-weight:bold; color:#fff; line-height:60px; background:url(../images/arrow-top.png) right center no-repeat;}
+.foot-1 section footer article a:hover{ color:#C30; background:url(../images/arrow-top-ho.png) right center no-repeat;}
+
+
+
+.full{ width:100%; float:left;}
+}
